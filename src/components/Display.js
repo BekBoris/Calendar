@@ -53,7 +53,6 @@ class Display extends Component {
   clickedMonth(month) {
     return this.setState((state) => {
       this.date.setMonth(month);
-      this.props.dataInfoUpdate("clickedMonthState", month);
       return state = { ...state, clickedMonthState: month, currentDisplayingNum: 0};
 
     });
@@ -61,7 +60,6 @@ class Display extends Component {
   // function for ckicked Year;
   clickedYear(year) {
     return this.setState( (state) => {
-      this.props.dataInfoUpdate("clickedYearState", year);
       return state = { ...state, clickedYearState: year, currentDisplayingNum: 1};
     });
   }

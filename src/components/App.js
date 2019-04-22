@@ -36,9 +36,9 @@ class App extends Component {
   render() {
     return (
       <div className="mainCont">
-        <h2> React Calendar </h2>
-        <h4> Appointments </h4>
-        <h4> Make a new Appointments </h4>
+        <h2>React Calendar</h2>
+        <h4>Redax State Use</h4>
+        <h4>Make a new Note</h4>
 
         <div>
           <form onSubmit={(event) => {this.onInputSubmit(event)}}>
