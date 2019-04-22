@@ -1,0 +1,16 @@
+.Month {
+  margin: auto;
+}
+
+.tdmonth {
+  padding: 13px 10px;
+}
+
+.tdmonth.currentMonth {
+  background-color: #38bde8;
+  color: white;
+}
+
+.tdmonth:hover:not(.currentMonth) {
+  background-color: #c7c6c6;
+}

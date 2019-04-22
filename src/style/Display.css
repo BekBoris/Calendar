@@ -1,0 +1,11 @@
+.displayCont {
+  border: 1px solid lightgray;
+  width: 210px;
+}
+
+.Display{
+  width: 100%;
+  border-bottom:  1px solid lightgray;
+  text-align: center;
+  padding: 5px 0px;
+}

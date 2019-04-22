@@ -1,0 +1,37 @@
+.tdday {
+  padding: 5px;
+  text-align: center;
+}
+
+.tdday.tdother-day {
+  color: gray;
+}
+
+.tdday.thisday{
+  color: white;
+  background-color: #38bde8;
+}
+
+.tdday.selectedday{
+  background-color: #828282;
+  color: white;
+}
+
+.tdday:hover:not(.thisday):not(.selectedday) {
+  background-color: #c7c6c6;
+}
+
+
+.Days {
+
+  margin: auto;
+}
+
+.Days tfoot tr td {
+  text-align: center;
+  padding: 3px;
+}
+
+.Days tfoot tr td span {
+  padding-left: 6px;
+}

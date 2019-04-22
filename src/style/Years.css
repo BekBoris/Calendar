@@ -1,0 +1,16 @@
+.Years {
+  margin: auto;
+}
+
+td.decade {
+  padding: 13px 8px;
+}
+
+td.decade.thisYear {
+  background-color: #38bde8;
+  color: white;
+}
+
+td.decade:hover:not(.thisYear) {
+  background-color: #c7c6c6;
+}

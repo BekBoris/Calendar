@@ -1,0 +1,16 @@
+.Time {
+  margin: auto;
+}
+
+.Time_cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 55px;
+}
+
+.Time_cont > div {
+  padding: 4px;
+
+}
