@@ -36,7 +36,6 @@ class Display extends Component {
   // change time is with click
   clickedTime({hours, minutes, amPm}) {
     return this.setState((state) => {
-      this.props.dataInfoUpdate("time", arguments[0]);
       return state = {...state, clickedHourState: hours, clickedMinuteState: minutes, clickedAmPmState: amPm};
     });
   };
